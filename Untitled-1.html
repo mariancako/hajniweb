@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saito's photos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex; /* Use flexbox for layout */
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 2px 20px;
+            text-align: left;
+            width: 100%; /* Ensure header spans full width */
+            position: fixed; /* Keep header fixed at the top */
+            top: 0; /* Position at the top */
+            left: 0; /* Position at the left */
+            z-index: 800; /* Ensure it's above other content */
+        }
+        .leftDive {
+            width: 200px; /* Fixed width for the sidebar */
+            background-color: black; /* Sidebar background color */
+            color: white; /* Sidebar text color */
+            padding: 20px;
+            position: fixed; /* Fix position of sidebar */
+            top: 60px; /* Below the header */
+            bottom: 0; /* Extend to bottom */
+            overflow-y: auto; /* Allow scrolling if content overflows */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Saito's photos <img src="png/icon2.png" alt="Icon" style="width: 65px; height: 55px; vertical-align: middle;"> </h1>
+        <nav>
+    </header>
+
+    <div class="leftDive"><br>
+
+        <img src="png/home.png" alt="Icon" style="width: 28px; height: 28px; vertical-align: middle;">
+        <a href="Home" style="font-size: 28px; color:#f4f4f4">Home</a><br>
+
+        <h2>Categories</h2>
+        <nav>
+            <a href="Portre" style="font-size: 25px; color:#f4f4f4" target="_self">Portre</a><br>
+            <a href="#Landscape" style="font-size: 25px; color:#f4f4f4" target="_self">Landscape</a><br>
+            <a href="#Concert" style="font-size: 25px; color:#f4f4f4" target="_self">Concert</a><br>
+            <a href="Macro" style="font-size: 25px; color:#f4f4f4" target="_self">Macro</a><br>
+            <a href="Night" style="font-size: 25px; color:#f4f4f4" target="_self">Night</a><br>
+            <a href="Astro" style="font-size: 25px; color:#ffffff; font-family: Verdana, Geneva, Tahoma, sans-serif;">Astro</a><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="Services" style="font-size: 23px; color:#ffffff; font-family: Verdana, Geneva, Tahoma, sans-serif;">Services</a><br>
+        <br>
+        <br>
+        <br>
+        <h2>Contacts</h2>
+        <img src="png/twit.png" alt="Icon" style="width: 20px; height: 20px; vertical-align: middle;">
+        <a href="https://x.com/KiyokoSa1to" style="font-size: 17px; color:#f4f4f4;" target="_blank">KiyokoSa1to</a><br>
+<br>
+        <img src="png/insta.png" alt="Icon" style="width: 20px; height: 20px; vertical-align: middle;">
+        <a href="https://www.instagram.com/saito.photos97/" style="font-size: 17px; color:#f4f4f4;" target="_blank">saito.photos97</a><br>
+<br>
+        <img src="png/tel.png" alt="Icon" style="width: 20px; height: 20px; vertical-align: middle;">
+        <a style="font-size: 17px; color:#f4f4f4;">+00000000</a><br>
+<br>
+        <img src="png/mail.png" alt="Icon" style="width: 20px; height: 20px; vertical-align: middle;">
+        <a href="mailto:@saitokiyoko23.com" style="font-size: 17px; color:#f4f4f4;" target="_blank">@saitokiyoko23</a><br>
+        </nav>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Saito's photos</p>
+    </footer>
+</body>
+</html>
